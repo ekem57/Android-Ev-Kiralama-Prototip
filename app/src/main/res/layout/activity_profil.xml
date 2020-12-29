@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profil">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarprofil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/profil"
+        app:titleMarginStart="@dimen/_30dp"
+        app:logo="@drawable/ic_baseline_person_24"
+        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profilim"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/_50dp"
+        android:textSize="@dimen/_30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editadP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/adiniz2"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:autofillHints="" />
+    <EditText
+        android:id="@+id/editsoyadP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/soyadiniz2"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editemailP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editsifreP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sifre"
+        android:inputType="textVisiblePassword"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/editceptelP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ceptel"
+        android:inputType="phone"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/butonPguncelle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@color/kayitbuton"
+        android:hint="@string/Guncelle"
+        android:textColor="#191212"
+        android:textStyle="bold" />
+</LinearLayout>

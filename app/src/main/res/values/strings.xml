@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Rezervasyon</string>
+    <string name="uygulamabaslik">Rezervasyon Uygulaması</string>
+    <string name="adiniz">Ad</string>
+    <string name="soyadiniz">Soyad</string>
+    <string name="sifreT">Şifreniz Tekrar</string>
+    <string name="sifre">Şifre</string>
+    <string name="ceptel">Cep Telefon Numaranız</string>
+    <string name="kayit">Kayit Ol</string>
+    <string name="email">E-mail</string>
+    <string name="kayitekrani">Kayıt Ol</string>
+    <string name="girisekrani">Giriş Yap</string>
+    <string name="girisyap">Giriş Yap</string>
+    <string name="giris">Giriş</string>
+    <string name="title_activity_anasayfa">Anasayfa</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="anasayfa">Anasayfa</string>
+    <string name="baslik">İlan Başlığı</string>
+    <string name="adres">Adres</string>
+    <string name="ucret">Mülk Ücreti</string>
+    <string name="kat">Kat</string>
+    <string name="odasayisi">Oda Sayısı</string>
+    <string name="metrekare">"m² "</string>
+    <string name="isitma">Isıtma</string>
+    <string name="mulktipi">Mülk Tipi Seç</string>
+    <string name="ilce">İlçe Seç</string>
+    <string name="ilsec">İl Seç</string>
+    <string name="balkon">Balkon Varmı</string>
+    <string name="katvar">Kat</string>
+    <string name="Guncelle">Bilgilerimi Güncelle</string>
+    <string name="adiniz2">Adınız</string>
+    <string name="soyadiniz2">Soyadınız</string>
+    <string name="çıkış">Çıkış</string>
+    <string name="profil">Profil</string>
+    <string name="kayitekraniyonlendirme">Zaten Kayıtlı mısınız? Giriş Yap</string>
+    <string name="Geri">"Geri "</string>
+    <string name="filtrekaldir">Filtreleri Kaldır</string>
+    <string name="kiralamatürü">Kiralama Türü</string>
+    <string name="kiralamatürü2">"Kiralama Türü: "</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/uygadi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/uygulamabaslik"
+        android:textAlignment="center"
+        android:textSize="@dimen/_30sp"
+        android:layout_marginTop="@dimen/_100dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:layout_marginBottom="@dimen/_25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/butongiris1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/giris"
+        android:background="@color/kayitbuton"
+        android:layout_marginTop="@dimen/_300dp"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        />
+
+    <Button
+        android:id="@+id/butonkayit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30dp"
+        android:layout_marginTop="@dimen/_30dp"
+        android:layout_marginRight="@dimen/_30dp"
+        android:background="@color/kayitbuton"
+        android:hint="@string/kayit" />
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mulkekle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_50dp"
+            android:text="Filtrele"
+            android:textAlignment="center"
+            android:textSize="@dimen/_30sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tipsec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:text="@string/mulktipi"
+                android:textAlignment="center"
+                android:textSize="@dimen/_20sp"
+
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/filtermulk"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_15dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_toRightOf="@+id/tipsec"
+                android:textAlignment="center" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/kat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:text="@string/katvar"
+                android:textAlignment="center"
+                android:textSize="@dimen/_20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/filterkat"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_117dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_toRightOf="@+id/kat"
+                android:textAlignment="center" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/balkon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:text="@string/balkon"
+                android:textAlignment="center"
+                android:textSize="@dimen/_20sp"
+
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/filterbalkon"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20dp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_toRightOf="@+id/balkon"
+                android:textAlignment="center" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ilsec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ilsec"
+                android:textAlignment="center"
+                android:textSize="@dimen/_20sp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="@dimen/_50dp"
+
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/filteril"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_toRightOf="@+id/ilsec"
+                android:layout_marginLeft="@dimen/_110dp"
+                android:layout_marginTop="@dimen/_10dp" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ilce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ilce"
+                android:textAlignment="center"
+                android:textSize="@dimen/_20sp"
+                android:layout_marginTop="@dimen/_10dp"
+                android:layout_marginLeft="@dimen/_50dp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/filterilce"
+                android:layout_width="@dimen/_150dp"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_toRightOf="@+id/ilce"
+                android:layout_marginLeft="@dimen/_90dp"
+                android:layout_marginTop="@dimen/_10dp" />
+
+
+        </RelativeLayout>
+
+
+
+        <Button
+            android:id="@+id/filtrekaldir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_30dp"
+            android:backgroundTint="#2196F3"
+            android:text="@string/filtrekaldir" />
+
+        <Button
+            android:id="@+id/filtrele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#2196F3"
+            android:layout_marginLeft="@dimen/_10dp"
+            android:layout_marginRight="@dimen/_10dp"
+            android:text="Filtrele" />
+
+
+    </LinearLayout>
+</ScrollView>
